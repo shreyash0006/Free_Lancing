@@ -1,0 +1,19 @@
+.logout
+{
+    border-radius:10pc;
+    background-color:white;
+    color:black;
+    height: 40px;
+    width:100px;
+    font-weight:900;
+    transition: all 0.5s;
+}
+.logout:hover{
+    background-color:navy;
+    color:rgb(150, 61, 61);
+}
+.outside{
+    background-color: rgb(77, 81, 81);
+    border-radius: 10px;
+    padding: 20px;
+}

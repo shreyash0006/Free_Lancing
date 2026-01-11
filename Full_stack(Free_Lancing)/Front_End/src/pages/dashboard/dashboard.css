@@ -1,0 +1,74 @@
+.dash{
+    color: aqua;
+    padding:40px;
+}
+.whole{
+    display: flex;
+    width:100%;
+    gap:30px;
+    height:120px;
+}
+.sales{
+      display: flex;
+      /* opacity: 0.5; */
+      flex:0.5;
+      border:2px solid #fff;
+      padding: 20px;
+      align-items:center;
+      gap:20px;
+      border-radius: 15px;
+}
+.dashbtn{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+   color: rgb(14, 247, 247);
+   font-weight: 800;
+   font-size: 30px;
+   background-color: rgb(1, 19, 1);
+}
+.count{
+  padding: 20px;
+    flex: 0.5;
+    /* opacity: 0.5; */
+    border:2px solid #fff;
+    border-radius: 15px;
+    display: flex;
+    gap:20px;
+}
+.recent{
+    height:100%;
+    border:2px solid wheat;
+    padding:20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.tab{
+    text-align: center;
+     width: 100%;
+     margin:10px;
+     backdrop-filter:blur(10px);
+     background-color: rgb(91, 88, 85);
+     overflow-y:auto;
+     max-height: 50vh;;
+}
+
+.recrow:hover{
+    opacity:0.8;
+    background-color: rgb(222, 234, 245);
+    color: black;
+}
+thead{
+    color:rgb(243, 29, 36);
+}
+.recrow{
+   margin-top: 30px;
+    transition: all 0.5s;
+}
+.cartpng{
+    height:30px;
+    font-weight:800;
+    font-size: 50px;
+    position: relative;
+    bottom:-13px;
+}

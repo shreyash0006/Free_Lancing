@@ -1,0 +1,27 @@
+.item{
+    /* height:60px; */
+    width:200px;
+    border-radius:10px;
+    
+    border:2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor:pointer;
+    gap:4px;
+    padding:5px;
+    transition: all 0.5s;
+    background-color: #432b2b;
+    color: aqua;
+}
+.item:hover{
+    background-color: rgb(83, 68, 149);
+    color:darkgray;
+    transform: scale(0.98);
+}
+.itemsout{
+    display: flex;
+    border:none;
+    gap:4px;
+    overflow-x:auto;
+}

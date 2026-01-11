@@ -1,0 +1,13 @@
+img{
+    height:40px;
+    border-radius:10px;
+}
+.align{
+    padding:4px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}.out{
+    border:2px solid black;
+}

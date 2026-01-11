@@ -1,0 +1,29 @@
+.table{
+    text-align: center;
+    border-radius: 20px;
+    border:2px solid black;
+   
+    max-height:75vh;
+}
+.rowtr:hover{
+    opacity: 0.5;
+    cursor:pointer;
+}
+.XX{
+    background-color: rgba(48, 39, 39, 0.573);
+    color: rgb(75, 51, 51);
+}
+
+.hist{
+     background-color: rgb(33, 25, 25);
+    position: relative;
+}
+.hist1{
+    max-height:80vh;
+    overflow-y: auto;
+}
+.fixed{
+    position: sticky;
+    top:0px;
+
+}

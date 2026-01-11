@@ -1,0 +1,25 @@
+.o{
+    display: flex; 
+}
+.in{
+    height:70px;
+    width:150px;
+    border-radius:10px;
+    border:2px solid black;
+    padding:5px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    cursor:pointer;
+    transition:all 0.5s;
+}
+img{
+    height:60px;
+    width:40px;
+}
+.in:hover{
+    transform: translateY(-5px);
+    transform:scale(1.2);
+}

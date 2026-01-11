@@ -1,0 +1,27 @@
+.outer{
+    display: flex;
+    gap:20px;
+    margin:20px; 
+    margin-bottom:20px; 
+    background-color: rgb(33, 25, 25);
+    padding:20px;
+   
+}
+.left{
+    flex:0.7;
+    border:2px solid rgb(52, 49, 49);
+    border-radius:10px;
+    padding:10px;
+    max-height:80vh;
+}
+.right{
+    max-height:80vh;
+    flex:0.3;
+    border:2px solid black;
+    border-radius:10px;
+    padding:10px;
+    padding-right:15px ;
+}
+.body{
+    height: 100vh;
+}

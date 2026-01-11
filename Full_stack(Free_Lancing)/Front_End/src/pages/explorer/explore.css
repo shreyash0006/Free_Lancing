@@ -1,0 +1,47 @@
+.explouter{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    box-sizing: border-box;
+    color:aqua;
+}
+.form1row{
+    flex:0.3;
+    padding:10px;
+    position: relative;
+}
+hr{
+    border:1px solid black;
+}
+.form2row{
+    flex:0.7;
+    padding:10px;
+    border:none;
+}
+.list1row{
+    flex:0.3;
+}
+.list2row{
+    flex:0.4;
+    overflow-y:auto;
+}
+.list3row{
+    flex:0.3;
+}
+.btnn{
+    height:40px;
+    width:180px;
+    border-radius:10px;
+    border:2px solid black;
+    background-color: rgb(51, 51, 171);
+    color:rgb(26, 110, 26);
+    position:absolute;
+    right:10px;
+}
+.btnn:hover{
+    transform:scale(1.03);
+    background-color: rgb(14, 4, 1);
+    border:3px solid #420a0a;
+ color:rgb(83, 6, 6);
+
+}

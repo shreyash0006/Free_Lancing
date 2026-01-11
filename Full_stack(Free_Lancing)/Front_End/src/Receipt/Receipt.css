@@ -1,0 +1,57 @@
+.R_outer{
+    height:100%;
+    width:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    /* background-color: white; */
+    backdrop-filter: blur(10px);
+   transition: 0.5s all;
+   color:black;
+   margin-bottom:50px;
+   
+}
+
+.R_inner{
+    max-height:90%;
+    width: 400px;
+    border-radius:10px;
+    padding: 20px;  
+    background-color: aliceblue;
+    box-shadow: 10px;
+}
+.flex{
+    display: flex;
+}
+.items
+{
+    max-height:100px;
+    overflow-y: auto;
+    margin-top:10px;
+}
+.money{
+    display: flex;
+    justify-content: space-between;
+}
+/* .btn{
+    position: fixed;
+    gap:20px;
+} */
+.green,.red{
+    height:40px;
+    width:80px;
+    position: relative;
+    right:-150px;
+    border-radius: 10px;
+    margin-left:10px;
+}
+.green{
+    background-color: rgb(30, 186, 30);
+}
+.red{
+    background-color: red;
+}

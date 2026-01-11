@@ -1,0 +1,28 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flexout{
+    padding:10px;
+}
+.cash{
+    height:40px;
+    width:160px;
+    border-radius: 10px;
+    background-color: green;
+    margin-top: 10px;
+}
+.upi{
+    height:40px;
+    width:160px;
+     border-radius: 10px;
+    background-color: rgb(58, 87, 232);
+    margin-top:10px;
+}
+.place{
+    height:40px;
+    width:100%;
+    border-radius: 10px;
+    background-color: rgb(142, 142, 25);
+    margin-top: 5px;
+}
